@@ -56,13 +56,13 @@
 									padding: 10px;
 									text-align:center;
 								}
-		table.search			{	width: 75%;
+		table.bottom			{	width: 75%;
 									margin-top: 20px;
 									margin-right: auto;
 									margin-left: auto;
-									text-align:left;
+								}
+		table.search			{	text-align:left;
 									color:#FFFFFF;
-									border: 1px solid;
 								}
 
 		td.searchheader			{	background-color: #956C04;
@@ -129,18 +129,20 @@
 			</td>
 		</tr>
 	</table>
-	<table class="search" border=1>
+	<table class="bottom">
 		<tr>
-			<td width=20% class="searchheader">Zoeken op persoon 2</td>
-			<td/>
-			<td rowspan=2 valign=top>
-				<div class="gcse-searchresults"></div>
+			<td width=20%>
+				<table class="search">
+					<tr>
+						<td width=20% class="searchheader">Zoeken op persoon 3</td>
+					</tr>
+					<tr>
+						<td><script async src="https://cse.google.com/cse.js?cx=263de434d664b4e2b"></script><div class="gcse-searchbox"></div></td>
+					</tr>
+				</table>
 			</td>
-		</tr>
-		<tr>
-			<td>
-				<script async src="https://cse.google.com/cse.js?cx=263de434d664b4e2b"></script><div class="gcse-searchbox"></div>
-			</td>
+			<td width=2%></td>
+			<td rowspan=2 valign=top><div class="gcse-searchresults"></div></td>
 		</tr>
 	</table>
 </body>
