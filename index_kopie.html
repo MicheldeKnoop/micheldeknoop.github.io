@@ -17,8 +17,8 @@
 								}
 		table.header			{	border: 0px solid;
 									width: 75%;
-									margin-top: 50px;
-									margin-bottom: 50px;
+									margin-top: 40px;
+									margin-bottom: 40px;
 									margin-right: auto;
 									margin-left: auto;
 									background: #956C04;
@@ -56,12 +56,18 @@
 									padding: 10px;
 									text-align:center;
 								}
-		tr.search				{	margin-top: 40px;
-								}
-		th.search				{	background-color: #956C04;
-									color: white;
-									padding: 20px;
+		table.search			{	width: 75%;
+									margin-top: 20px;
+									margin-right: auto;
+									margin-left: auto;
 									text-align:left;
+									color:#FFFFFF;
+									border: 1px solid;
+								}
+
+		td.searchheader			{	background-color: #956C04;
+									padding: 20px;
+									font-weight: bold;
 								}
 		A:hover 				{	color: #FF0000
 								}
@@ -122,19 +128,18 @@
 				</table>
 			</td>
 		</tr>
-		<tr class="search">
-			<th class="search">Zoeken op persoon</th>
+	</table>
+	<table class="search">
+		<tr>
+			<td width=20% class="searchheader">Zoeken op persoon</td>
+			<td/>
+			<td>
+				<div class="gcse-searchresults"></div>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<script async src="https://cse.google.com/cse.js?cx=263de434d664b4e2b"></script><div class="gcse-searchbox"></div>
-			</td>
-		</tr>
-		<tr>
-			<td/>
-			<td/>
-			<td>
-				<div class="gcse-searchresults"></div>
 			</td>
 		</tr>
 	</table>
