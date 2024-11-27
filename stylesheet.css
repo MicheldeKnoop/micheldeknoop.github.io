@@ -5,7 +5,7 @@ td.searchheader, h1.index, .vertical-menu a.active, #footer											{	backgrou
 .vertical-menu a:hover																				{	background-color:#B0E9FD}
 .vertical-menu a									 												{	background-color:#035E7B}
 td.searchheader, .vertical-menu a, .vertical-menu a.active, h1.index, a.footer, td.footer, #footer	{	color:#FAFBEF}
-a2, h1, table.center																				{	color:#002E2C}
+h1, table.center																					{	color:#002E2C}
 a, h2, .vertical-menu a:hover																		{	color:#035E7B}
 
 body.index								{	font-family:verdana; width:75%; margin-right:auto; margin-left:auto}
@@ -17,31 +17,12 @@ td.searchheader							{	padding:16px}
 td.center								{	padding:4px}
 A:hover									{	color:red}
 .vertical-menu							{	margin-top:20px}
-.vertical-menu a					 	{	display:block;padding:16px;text-decoration:none;border-top:1px solid}
+.vertical-menu a					 	{	display:block; padding:16px; text-decoration:none; border-top:1px solid}
 
-#contentIndex							{ 	display: block;
-											max-width: 1500px;
-											padding: 10px;
-											border: 1px solid #002E2C;
-											margin: 0px auto;
-											margin-bottom: 200px;
-										}
-#content								{	display: block;
-											max-width: 1000px;
-											padding: 10px;
-											border: 1px solid #002E2C;
-											margin: 0px auto;
-											margin-bottom: 200px;
-										}
-#footer									{	position: fixed;
-											left: 0px;right: 0px;bottom: 0px;
-											margin-bottom: 0px;
-											width: 100%;
-											padding: 10px;
-											border-top: 1px solid #002E2C;
-										}
+#contentIndex							{ 	display:block; max-width:1500px; padding:10px; border:1px solid #002E2C; margin:0px auto; margin-bottom:200px}
+#content								{	display:block; max-width:1000px; padding:10px; border:1px solid #002E2C; margin:0px auto; margin-bottom:200px}
+#footer									{	position: fixed; left: 0px;right: 0px;bottom: 0px; margin-bottom: 0px; width: 100%; padding: 10px; border-top: 1px solid #002E2C}
 										
-@media screen and (max-width: 900px)		
-										{	body.index	{	font-family:verdana;width:100%;margin-right:0;margin-left:0}
+@media screen and (max-width: 900px)	{	body.index	{	font-family:verdana; width:100%; margin-right:0; margin-left:0}
 											td.left		{	width:30%}
 										}
