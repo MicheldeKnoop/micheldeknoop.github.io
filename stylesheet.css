@@ -1,0 +1,28 @@
+
+body																								{	background-color:#C1C5AA}
+body.index, td.search, #contentIndex, #content														{	background-color:#FAFBEF}
+td.searchheader, h1.index, .vertical-menu a.active, #footer											{	background-color:#002E2C}
+.vertical-menu a:hover																				{	background-color:#B0E9FD}
+.vertical-menu a									 												{	background-color:#035E7B}
+td.searchheader, .vertical-menu a, .vertical-menu a.active, h1.index, a.footer, td.footer, #footer	{	color:#FAFBEF}
+h1, table.center																					{	color:#002E2C}
+a, h2, .vertical-menu a:hover																		{	color:#035E7B}
+
+body.index								{	font-family:verdana; width:75%; margin-right:auto; margin-left:auto}
+body									{	font-family:verdana; margin:0px}
+h1.index								{	text-align:center; margin:20px auto; padding: 10px }
+h1.pages								{	border-bottom: 3px solid #002E2C; padding-bottom: 10px;}
+table.center							{	text-align:center} 
+td.searchheader							{	padding:16px}
+td.center								{	padding:4px}
+A:hover									{	color:red}
+.vertical-menu							{	margin-top:20px}
+.vertical-menu a					 	{	display:block; padding:16px; text-decoration:none; border-top:1px solid}
+
+#contentIndex							{ 	display:block; max-width:1500px; padding:10px; border:1px solid #002E2C; margin:0px auto; margin-bottom:200px}
+#content								{	display:block; max-width:1000px; padding:10px; border:1px solid #002E2C; margin:0px auto; margin-bottom:200px}
+#footer									{	position: fixed; left: 0px;right: 0px;bottom: 0px; margin-bottom: 0px; width: 100%; padding: 10px; border-top: 1px solid #002E2C}
+										
+@media screen and (max-width: 900px)	{	body.index	{	font-family:verdana; width:100%; margin-right:0; margin-left:0}
+											td.left		{	width:30%}
+										}
